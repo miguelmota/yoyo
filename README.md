@@ -1,26 +1,26 @@
 # Yoyo
 
-Yoyo is a tiny [trampoline](http://en.wikipedia.org/wiki/Trampoline_(computing) (iteratively invokes [thunk](http://en.wikipedia.org/wiki/Thunk_(functional_programming))-returning functions) library with partial application support.
+Yoyo is a tiny [trampoline](http://en.wikipedia.org/wiki/Trampoline_\(computing\)) (iteratively invokes [thunk](http://en.wikipedia.org/wiki/Thunk_\(functional_programming\))-returning functions) library with partial application support.
 
 # Install
 
-    Available via [bower]():
+Available via [bower](http://bower.io/):
 
-    ```bash
-    bower install yoyo
-    ```
+```bash
+bower install yoyo
+```
 
-    Available via [npm]():
+Available via [npm](https://www.npmjs.org/):
 
-    ```bash
-    npm install yoyojs
-    ```
+```bash
+npm install yoyojs
+```
 
 # Usage
 
-    Factorial example:
+Factorial example:
 
-    ```javascript
+```javascript
 var yoyo = require('yoyojs');
 
 function factorial(n, acc) {
