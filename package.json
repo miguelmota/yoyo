@@ -1,0 +1,33 @@
+{
+  "name": "yoyojs",
+  "version": "0.0.1",
+  "description": "A tiny trampoline library.",
+  "main": "yoyo.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jasmine-node test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/yoyo"
+  },
+  "keywords": [
+    "yoyo",
+    "trampoline",
+    "partial",
+    "application",
+    "thunk",
+    "recursion"
+  ],
+  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelmota/yoyo/issues"
+  },
+  "homepage": "https://github.com/miguelmota/yoyo",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}

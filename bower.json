@@ -1,0 +1,25 @@
+{
+  "name": "yoyo",
+  "main": "yoyo.js",
+  "version": "0.0.1",
+  "authors": [
+    "Miguel Mota <miguelmota2@gmail.com>"
+  ],
+  "description": "A tiny trampoline library.",
+  "keywords": [
+    "trampoline",
+    "thunk",
+    "recursion",
+    "partial",
+    "application"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/miguelmota/yoyo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
