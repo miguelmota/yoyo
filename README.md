@@ -24,7 +24,7 @@ Factorial example:
 var yoyo = require('yoyojs');
 
 function factorial(n, acc) {
-  if (n < 2){
+  if (n < 2) {
     return acc;
   }
   return fac.bind(null, n-1, n * acc);
@@ -58,7 +58,7 @@ Without trampolining, a new stack frame is created on each iteration call and th
 
 ```bash
 function fac(n, acc) {
-  if (n < 2){
+  if (n < 2) {
     return acc;
   }
   return fac(n-1, n * acc);
@@ -76,11 +76,11 @@ Failures:
       undefined
 ```
 
-With trampolining, there is not a new stack created because of tail-call elimation, meaning that after each iteration the result is returned and the trampoline takes care of calling it again with the new result if the returned result is thunk.
+With trampolining, there is not a new stack created because of tail-call elimation, meaning that after each iteration the result is returned and the trampoline takes care of calling it again with the new result if the returned result is thunk:
 
 ```bash
 function fac(n, acc) {
-  if (n < 2){
+  if (n < 2) {
     return acc;
   }
   return fac.bind(n-1, n * acc);

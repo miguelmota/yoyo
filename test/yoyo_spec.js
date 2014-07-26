@@ -4,7 +4,7 @@ var assert = require('assert');
 describe('Yoyo', function() {
   it('Should return fail with stackoverflow', function(done) {
     function fac(n, acc) {
-      if (n < 2){
+      if (n < 2) {
         return acc;
       }
       return fac(n-1, n * acc);
@@ -17,7 +17,7 @@ describe('Yoyo', function() {
 
   it('Should return correct factorial', function(done) {
     function fac(n, acc) {
-      if (n < 2){
+      if (n < 2) {
         return acc;
       }
       return fac.bind(null, n-1, n * acc);
