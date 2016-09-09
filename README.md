@@ -27,7 +27,7 @@ function factorial(n, acc) {
   if (n < 2) {
     return acc;
   }
-  return fac.bind(null, n-1, n * acc);
+  return factorial.bind(null, n-1, n * acc);
 }
 
 yoyo(factorial, 3,1); // 6
